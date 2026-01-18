@@ -74,7 +74,7 @@ ul{
     transition: 2s;
     color: aliceblue;
  }
- img{
+ .first-image{
     /* margin-top: 200px; */
     margin: 69px 75px 81px 115px;
     
@@ -133,10 +133,51 @@ ul{
     max-width: 1600px;
     margin-left: 150px;
     margin-top: 80px;
+    margin-bottom: 120px;
 }
 .card-head{
     color: aquamarine;
 }
 .card-p{
     color: aliceblue;
+}
+.techwava-part{
+    width: 1600px;
+    height: 1121px;
+    /* padding: 120px 200px; */
+    background-color: rgba(35, 14, 61, 1);
+}
+.part-of-techwava{
+    text-align: center;
+    color: aliceblue;
+    padding: 120px 200px;
+}
+
+
+.Why-choose-techwava{
+    text-align: justify;
+    /* width: 340px;
+    height: 480px; */
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+
+
+}
+.card-2{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+#first-part{
+    grid-row: span 2;
+}
+#second-part{
+    grid-column: span 2;
+}
+#clams{
+    grid-column: span 2;
+}
+#rows{
+    grid-column: span 1;
 }
