@@ -146,11 +146,13 @@ ul{
     height: 1121px;
     /* padding: 120px 200px; */
     background-color: rgba(35, 14, 61, 1);
+    
 }
 .part-of-techwava{
     text-align: center;
     color: aliceblue;
     padding: 120px 200px;
+    
 }
 
 
@@ -160,6 +162,7 @@ ul{
     height: 480px; */
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 20px;
+    padding: 40px;
 
 
 }
@@ -180,4 +183,36 @@ ul{
 }
 #rows{
     grid-column: span 1;
+}
+#first-part{
+    padding-top: 200px;
+}
+.last-head{
+    text-align: center;
+    color: aliceblue;
+    max-width: 1600px;
+    margin-top: 120px;
+}
+
+.ifrem{
+    width:380px ;
+    height: 226px;
+    background-color: rgba(37, 13, 68, 1);
+    
+
+}
+.last-title{
+    padding-top: 15px;
+    font-size: 1.6em;
+}
+.last-card{
+    max-width: 1600px;
+    width: 1200px;
+    margin-left: 200px;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.time{
+    color: #0ffa36;
 }
