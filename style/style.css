@@ -68,9 +68,19 @@ ul{
     margin-left: 252px;
     font-size: 30px;
  }
+ .circle-icon:hover{
+    background: linear-gradient(to bottom, #0ffa36, #ff0565, #fda163);
+    transform: scale(150%);
+    transition: 2s;
+    color: aliceblue;
+ }
  img{
     /* margin-top: 200px; */
     margin: 69px 75px 81px 115px;
+    
+ }
+ img :hover{
+
  }
  .title{
     text-align: center;
@@ -83,6 +93,12 @@ ul{
     background: linear-gradient(to bottom, #9d26ef, #f51d8d, #ff8a3d);
     padding: 12px 20px ;
     color: aliceblue;
+ }
+ .secon-btn:hover{
+    background: linear-gradient(to bottom, #f0fa96, #0f7477, #fda163);
+    transform: scale(150%);
+    transition: 3s;
+    
  }
 .third-btn{
    width: 150px;
