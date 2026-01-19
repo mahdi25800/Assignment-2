@@ -272,12 +272,12 @@ ul{
     
 
     @media screen and (max-width :576px) {
-        .navbar{
+        /* .navbar{
             width: 500px;
         }
         .first-bg{
             width: 500px;
-        }
+        } */
 
         .details{
             width: 500px;
