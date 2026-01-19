@@ -4,6 +4,7 @@
 body{
     font-family: "Montserrat Alternates", sans-serif;
     background-color: rgba(26, 11, 46, 1);
+   
 }
 
 
@@ -39,14 +40,16 @@ ul{
     border-radius: 10px;
 }
 .first-bg{
-    width: 1600px;
+    width: 100%;
     height: 760px;
     background-image:url("assets/hero-bg.png") ;
     background-repeat: no-repeat;
     padding-top: 101px;
+    
 }
 
  .circle-bg{
+    position: relative;
     background-image: url("assets/hero-circle.png");
     background-repeat: no-repeat;
     /* padding-top: 101px; */
@@ -54,6 +57,7 @@ ul{
     height: 380px;
     margin: 0px auto;
     margin-left: 625px;
+    
  }
  .circle-icon{
     background-color: rgb(91, 255, 91);
@@ -172,6 +176,7 @@ ul{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
 }
+
 #first-part{
     grid-row: span 2;
 }
@@ -228,6 +233,7 @@ ul{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
+    
 }
 .profile-photo{
     padding-top: 50px;
@@ -258,3 +264,44 @@ ul{
     gap: 15px;
     justify-content:center ;
 }
+.first-bg-div{
+
+
+}
+/* Responsive-part-is-here */
+    
+
+    @media screen and (max-width :576px) {
+        .navbar{
+            width: 500px;
+        }
+        .first-bg{
+            width: 500px;
+        }
+
+        .details{
+            width: 500px;
+            
+        }
+        .first-card{
+            display: grid;
+    grid-template-columns: repeat(1, 1fr);
+        }
+        
+        .card-2{
+
+        }
+        .last-card{
+             display: grid;
+    grid-template-columns: repeat(1,1fr);
+        }
+        .profile{
+            width: 100%;
+            
+        }
+        .footer{
+            width: 500px;
+            margin-left: 200px;
+        }
+    }
+
